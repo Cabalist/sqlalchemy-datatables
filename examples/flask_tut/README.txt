@@ -4,12 +4,16 @@ flask_tut README
 Getting Started
 ---------------
 
+In a virtualenv:
+
 - cd <directory containing this file>
 
-- $VENV/bin/python setup.py develop
+- python setup.py develop
 
-- $VENV/bin/python flask_tut/scripts/initializedb.py
+- export FLASK_APP=flask_tut
 
-- $VENV/bin/python flask_tut/__init__.py
+- flask initdb
 
-- go to http://localhost:5678
+- FLASK_DEBUG=1 flask run
+
+- go to http://localhost:5000
