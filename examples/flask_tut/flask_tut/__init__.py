@@ -2,10 +2,10 @@
 """Flask tutorial views."""
 from time import sleep
 
+import click
 from flask import Flask
 from flask import jsonify, render_template, request
 from flask_tut.models import Address, User, db
-import click
 
 from datatables import ColumnDT, DataTables
 
